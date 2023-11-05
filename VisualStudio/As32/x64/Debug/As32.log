@@ -1,0 +1,5 @@
+﻿  As32.cpp
+C:\Users\Faisal Khan\source\repos\As32\As32.cpp(24,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Faisal Khan\source\repos\As32\As32.cpp(59,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Faisal Khan\source\repos\As32\As32.cpp(67,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  As32.vcxproj -> C:\Users\Faisal Khan\source\repos\As32\x64\Debug\As32.exe

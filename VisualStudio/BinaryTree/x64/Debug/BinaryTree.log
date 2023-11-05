@@ -1,0 +1,3 @@
+﻿  BinaryTree.cpp
+C:\Users\Faisal Khan\source\repos\BinaryTree\BinaryTree.cpp(42,7): warning C4101: 'b': unreferenced local variable
+  BinaryTree.vcxproj -> C:\Users\Faisal Khan\source\repos\BinaryTree\x64\Debug\BinaryTree.exe

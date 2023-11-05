@@ -1,0 +1,5 @@
+﻿  ExpressionTree.cpp
+C:\Users\Faisal Khan\source\repos\ExpressionTree\ExpressionTree.cpp(66,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Faisal Khan\source\repos\ExpressionTree\ExpressionTree.cpp(189,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Faisal Khan\source\repos\ExpressionTree\ExpressionTree.cpp(47): warning C4715: 'priority': not all control paths return a value
+  ExpressionTree.vcxproj -> C:\Users\Faisal Khan\source\repos\ExpressionTree\x64\Debug\ExpressionTree.exe

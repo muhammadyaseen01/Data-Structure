@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AVLTrees", "AVLTrees.vcxproj", "{D87C606E-FCF6-4D40-8005-B0D69812BBFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D87C606E-FCF6-4D40-8005-B0D69812BBFB}.Debug|x64.ActiveCfg = Debug|x64
+		{D87C606E-FCF6-4D40-8005-B0D69812BBFB}.Debug|x64.Build.0 = Debug|x64
+		{D87C606E-FCF6-4D40-8005-B0D69812BBFB}.Debug|x86.ActiveCfg = Debug|Win32
+		{D87C606E-FCF6-4D40-8005-B0D69812BBFB}.Debug|x86.Build.0 = Debug|Win32
+		{D87C606E-FCF6-4D40-8005-B0D69812BBFB}.Release|x64.ActiveCfg = Release|x64
+		{D87C606E-FCF6-4D40-8005-B0D69812BBFB}.Release|x64.Build.0 = Release|x64
+		{D87C606E-FCF6-4D40-8005-B0D69812BBFB}.Release|x86.ActiveCfg = Release|Win32
+		{D87C606E-FCF6-4D40-8005-B0D69812BBFB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA4ED8B9-589B-4BEB-98B7-07BD349DDBF7}
+	EndGlobalSection
+EndGlobal

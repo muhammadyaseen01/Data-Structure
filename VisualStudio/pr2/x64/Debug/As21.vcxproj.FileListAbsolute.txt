@@ -1,0 +1,2 @@
+C:\Users\Faisal Khan\source\repos\As21\x64\Debug\pr2.exe
+C:\Users\Faisal Khan\source\repos\pr2\x64\Debug\pr2.exe

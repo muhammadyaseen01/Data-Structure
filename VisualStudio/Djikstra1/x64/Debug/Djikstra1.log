@@ -1,0 +1,5 @@
+﻿  Djikstra1.cpp
+C:\Users\Faisal Khan\source\repos\Djikstra1\Djikstra1.cpp(220,12): warning C4305: 'initializing': truncation from '__int64' to 'int'
+C:\Users\Faisal Khan\source\repos\Djikstra1\Djikstra1.cpp(220,14): warning C4309: 'initializing': truncation of constant value
+C:\Users\Faisal Khan\source\repos\Djikstra1\Djikstra1.cpp(207,6): warning C4101: 'w': unreferenced local variable
+  Djikstra1.vcxproj -> C:\Users\Faisal Khan\source\repos\Djikstra1\x64\Debug\Djikstra1.exe

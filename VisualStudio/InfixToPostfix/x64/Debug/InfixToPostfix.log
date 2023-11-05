@@ -1,0 +1,4 @@
+﻿  InfixToPostfix.cpp
+C:\Users\Faisal Khan\source\repos\InfixToPostfix\InfixToPostfix.cpp(57,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Faisal Khan\source\repos\InfixToPostfix\InfixToPostfix.cpp(38): warning C4715: 'priority': not all control paths return a value
+  InfixToPostfix.vcxproj -> C:\Users\Faisal Khan\source\repos\InfixToPostfix\x64\Debug\InfixToPostfix.exe

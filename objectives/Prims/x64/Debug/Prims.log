@@ -1,0 +1,4 @@
+﻿  Prims.cpp
+C:\Users\Faisal Khan\source\repos\Prims\Prims.cpp(476,14): warning C4305: 'initializing': truncation from '__int64' to 'int'
+C:\Users\Faisal Khan\source\repos\Prims\Prims.cpp(476,16): warning C4309: 'initializing': truncation of constant value
+  Prims.vcxproj -> C:\Users\Faisal Khan\source\repos\Prims\x64\Debug\Prims.exe

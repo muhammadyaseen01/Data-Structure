@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Undirected_MST_Krushkel", "Undirected_MST_Krushkel.vcxproj", "{A408CC18-7505-4E20-B2C7-8EA0D904C699}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A408CC18-7505-4E20-B2C7-8EA0D904C699}.Debug|x64.ActiveCfg = Debug|x64
+		{A408CC18-7505-4E20-B2C7-8EA0D904C699}.Debug|x64.Build.0 = Debug|x64
+		{A408CC18-7505-4E20-B2C7-8EA0D904C699}.Debug|x86.ActiveCfg = Debug|Win32
+		{A408CC18-7505-4E20-B2C7-8EA0D904C699}.Debug|x86.Build.0 = Debug|Win32
+		{A408CC18-7505-4E20-B2C7-8EA0D904C699}.Release|x64.ActiveCfg = Release|x64
+		{A408CC18-7505-4E20-B2C7-8EA0D904C699}.Release|x64.Build.0 = Release|x64
+		{A408CC18-7505-4E20-B2C7-8EA0D904C699}.Release|x86.ActiveCfg = Release|Win32
+		{A408CC18-7505-4E20-B2C7-8EA0D904C699}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {179A38A4-4720-46FF-A6B2-A382E8E6BAFA}
+	EndGlobalSection
+EndGlobal

@@ -30,8 +30,8 @@ int Hashfn(char b) {
 
 
 void InsertVertex(char c) {
-	struct Vertex* temp = new Vertex;
-	VertexCount += 1;
+	Vertex* temp = new Vertex;
+	VertexCount ++; //counting no of vertex
 	temp->vertex = c;
 	temp->next = NULL;
 	temp->Sstart = NULL;
@@ -49,7 +49,7 @@ void InsertVertex(char c) {
 }
 
 void InsertEdge(char source, char desti, int weight) {
-	Vertex* curr1 = Cstart;// for if the vertex exist from which we want to connect
+	Vertex* curr1 = Cstart;// jis vertex me add krna h edge wo mojood h ya nh
 	while (curr1 != NULL) {
 		if (curr1->vertex == source) {
 			break;
@@ -62,12 +62,12 @@ void InsertEdge(char source, char desti, int weight) {
 		return;
 	}
 
-	Vertex* curr2 = Cstart;// for if the vertex which we want to connect to exists
+	Vertex* curr2 = Cstart;// jis edge ko link krna h wo vertex ki list me h ya nh
 	while (curr2 != NULL)
 	{
 		if (curr2->vertex == desti)
 		{
-			EdgeCount += 1;// counting number of edges
+			EdgeCount ++;// counting number of edges
 			Edge* temp = new Edge;
 			temp->ToVertex = curr2;
 			temp->next = NULL;
@@ -187,7 +187,7 @@ void DeleteVertex(char b) {// deleting a vertex and its reference(edge) everywhe
 	Vertex* main = Cstart;
 	while (main != NULL) {
 		if (main->vertex != b) { //to not go in the sub list of the vertex itself
-			Edge* sub = main->Sstart;//current
+			Edge* sub = main->Sstart;//current (pointing to the first element of sublist)
 
 			if (sub == NULL) {
 				main = main->next;
@@ -200,14 +200,12 @@ void DeleteVertex(char b) {// deleting a vertex and its reference(edge) everywhe
 				main = main->next;
 				continue;
 			}
-			Edge* sub2 = main->Sstart->next;//next
+			Edge* sub2 = main->Sstart->next;//next (pointing to the second element of sublist)
 			while (sub2 != NULL) {          //to find reference of the vertex in the sublist
 				if (sub2->ToVertex->vertex == b) {
 					sub->next = sub2->next;
 					free(sub2);
 					break;
-
-
 				}
 				sub = sub->next;
 				sub2 = sub2->next;
@@ -226,7 +224,7 @@ void DeleteVertex(char b) {// deleting a vertex and its reference(edge) everywhe
 		free(main);
 	}
 	else {
-		Vertex* main2 = Cstart->next; //next
+		Vertex* main2 = Cstart->next; //next (pointing to the second element of mainlist)
 		while (main2 != NULL) { // if the vertex is in the middle or end
 			if (main2->vertex == b) {
 				main->next = main2->next;
@@ -243,7 +241,7 @@ void DeleteVertex(char b) {// deleting a vertex and its reference(edge) everywhe
 		return;
 	}
 
-	sub2 = sub;//next
+	sub2 = sub;//next (both sub and sub2 pointing to the first element of the sublist)
 	while (sub != NULL) { // deleting sub list
 		sub2 = sub2->next;
 		free(sub);
